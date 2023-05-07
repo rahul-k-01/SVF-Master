@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+body {
+  background-image: url("images/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  float: left;
+}
+.card {
+  background-color: #ffffff89;
+  margin-top: 10%;
+}
+.card-header {
+  font-size: 2em;
+  font-weight: 500;
+}
+h1 {
+  font-family: "Gloock", serif;
+}

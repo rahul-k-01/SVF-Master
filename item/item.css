@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+
+.logo {
+  float: left;
+}
+.card {
+  background-color: #ffffff89;
+  margin-top: 10%;
+}
+.card-header {
+  font-size: 2em;
+  font-weight: 500;
+}
+h1 {
+  font-family: "Gloock", serif;
+}
+.heading{
+    text-align: center;
+    font-size: 4em;
+    font-family: "Gloock", serif;
+    color: black;
+ }
+ .info {
+    background-color: rgb(243, 166, 89);
+    border-radius: 1em 1em 1em 1em;
+    font-size: 3em;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom:5em;
+    color: black;
+ }
+  
+ .item {
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid black ;
+    height: 45em;
+  }
+  .drg {
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid black ;
+    height: 45em;
+  }
+  .patt {
+    background-color: honeydew;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 2.5em;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom:2.7em;
+    
+  }
+  .img {
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid black ;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
