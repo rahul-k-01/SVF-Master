@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+
+.logo {
+  float: left;
+}
+.card {
+  background-color: #ffffff89;
+  margin-top: 10%;
+}
+.card-header {
+  font-size: 2em;
+  font-weight: 500;
+}
+h1 {
+  font-family: "Gloock", serif;
+}
+.heading{
+    text-align: center;
+    font-size: 4em;
+    font-family: "Gloock", serif;
+    color: black;
+    padding-top: 3em;
+ }
+ .info {
+    background-color: rgb(243, 166, 89);
+    border-radius: 1em 1em 1em 1em;
+    font-size: 4em;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom:5em;
+    color: black;
+    height: 16.5em;
+ }
+  
+ .item {
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid black ;
+    height: 65em;
+  }
+  .drg {
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid black ;
+    height: 65em;
+  }
+  .patt {
+    background-color: honeydew;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 4em;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    height: 16.5em;
+    
+  }
+  .img {
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid black ;
+    height: 45em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  /* nav */
+  *{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  :root{
+    --min-color: #fff;
+    --sc-color: #3ec1d5;
+    --th-color: #333;
+  }
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 0.5rem;
+    font-size: 66%;
+  }
+  
+  .heading{
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--th-color);
+  }
+  .heading div{
+    display: inline-block;
+    border-bottom: 0.2rem solid var(--th-color);
+    width: 15rem;
+  }
+  .heading div:hover{
+    width: 25rem;
+  }
+  section{
+    padding: 3rem 8%;
+  }
+  header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    background: rgba(10, 10, 9, 0.6);
+    z-index: 1001;
+  }
+  header .logo{
+    font-size: 3.5rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+  }
+  header .navbar a{
+    margin: 0 0.8rem;
+    font-size: 1.9rem;
+    color: var(--min-color);
+    padding: 0.4rem ;
+  }
+  header .navbar a:hover,
+  header .fa-bars:hover{
+    color: var(--sc-color);
+  }
+  header .fa-bars{
+    font-size: 2.8rem;
+    color: var(--min-color);
+    cursor: pointer;
+    display: none;
+  
+  }
+  /* nav */
