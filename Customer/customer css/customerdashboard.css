@@ -70,7 +70,7 @@ header .fa-bars{
 
 
 body {
-  background-image: url("/images/dash-bg.jpg");
+  background-image: url("/Customer/peoduct-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -108,6 +108,7 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
+  
 }
 
 .heading{
@@ -120,3 +121,4 @@ footer {
 .btn {
  font-size: 1.5rem;
 }
+
