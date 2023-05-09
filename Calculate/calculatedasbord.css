@@ -1,0 +1,81 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  :root{
+    --min-color: #fff;
+    --sc-color: #3ec1d5;
+    --th-color: #333;
+  }
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 0.5rem;
+    font-size: 66%;
+  }
+  
+  .heading{
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--th-color);
+  }
+  .heading div{
+    display: inline-block;
+    border-bottom: 0.2rem solid var(--th-color);
+    width: 15rem;
+  }
+  .heading div:hover{
+    width: 25rem;
+  }
+  section{
+    padding: 3rem 8%;
+  }
+  header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    background: rgba(10, 10, 9, 0.6);
+    z-index: 1001;
+  }
+  header .logo{
+    font-size: 3.5rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+  }
+  header .navbar a{
+    margin: 0 0.8rem;
+    font-size: 1.9rem;
+    color: var(--min-color);
+    padding: 0.4rem ;
+  }
+  header .navbar a:hover,
+  header .fa-bars:hover{
+    color: var(--sc-color);
+  }
+  header .fa-bars{
+    font-size: 2.8rem;
+    color: var(--min-color);
+    cursor: pointer;
+    display: none;
+  
+  }
+  
+  
+  
+  body {
+    background-image: url("/images/dash-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+   }
