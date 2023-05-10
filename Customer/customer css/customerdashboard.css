@@ -70,7 +70,7 @@ header .fa-bars{
 
 
 body {
-  background-image: url("/Customer/peoduct-bg.jpg");
+  background-image: url("../peoduct-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
