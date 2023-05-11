@@ -148,7 +148,7 @@
     z-index: 1001;
   }
   header .logo{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--min-color);
     padding: 0.4rem;
     height: 4em;
