@@ -88,6 +88,7 @@ h1 {
   font-size: 200%;
   font-weight: bold;
   height: 12em;
+  
 
 }
 .yell {
@@ -241,11 +242,11 @@ footer {
     border-radius:  0 0 1em 1em;
     padding-top: 1em;
     padding-left: 2em;
-    padding-right: 1em;
     text-align: left;
-    font-size: 75%;
+    font-size: 1.5em;
     font-weight: bold;
-    height: fit-content;
+    height:13em;
+    width: 20em;
   
   }
   
@@ -254,10 +255,13 @@ footer {
     border-radius:1em 1em 0 0 ;
     padding-top: 1em;
     padding-left: 1em;
-    height: 10em;
+    height: 25em;
+    width: 30em;
   }
   .row{
     padding-bottom: 2em;
+    flex-direction: column;
+   
   
   }
   footer {
