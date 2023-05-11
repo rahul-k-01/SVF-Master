@@ -197,27 +197,29 @@ h1 {
       padding-bottom:5em;
       color: black;
       height: 12em;
+      font-weight: bold;
    }
     
    .item {
       border-radius: 1em 1em 1em 1em;
       border: 2px solid black ;
-      height: 15em;
+      height: 19em;
     }
     .patt {
-      background-color: honeydew;
+      background-color: rgb(136, 197, 136);
       border-radius: 1em 1em 1em 1em;
-      font-size: 1em;
+      font-size: 1.2em;
       text-align: left;
       padding-top: 1em;
       padding-left: 1em;
-      height: 12em;
+      height: 16em;
+      font-weight: bold;
       
     }
     .img {
       border-radius: 1em 1em 1em 1em;
       border: 2px solid black ;
-      height: 12em;
+      height: 11em;
     }
     
     footer {
