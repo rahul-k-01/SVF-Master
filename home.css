@@ -94,3 +94,87 @@
    }
 
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* media query  */
+
+@media(max-width:850px){
+
+
+  :root{
+    --min-color: #fff;
+    --sc-color: #3ec1d5;
+    --th-color: #333;
+  }
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 0.5rem;
+    font-size: 66%;
+  }
+  body {
+    background-image: url("images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+
+  header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    background: rgba(10, 10, 9, 0.6);
+    z-index: 1001;
+  }
+  header .logo{
+    font-size: 1rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+    height: 4em;
+  }
+  header .navbar a{
+    margin: 0 0.8rem;
+    font-size: 1rem;
+    color: var(--min-color);
+    padding: 0.4rem ;
+  }
+  header .navbar a:hover,
+  header .fa-bars:hover{
+    color: var(--sc-color);
+  }
+  header .fa-bars{
+    font-size: 1rem;
+    color: var(--min-color);
+    cursor: pointer;
+    display: none;
+  
+  }
+  .dropdown-toggle{
+    margin: 0 0.8rem !important;
+    font-size: 1rem !important;
+    color: var(--min-color) !important;
+    padding: 0.4rem !important;
+  }
+  .dropdown-menu{
+    background: rgba(10, 10, 9, 0.6);
+  }
+  .dropdown-menu li a:hover{
+    background:none;
+  }
+}
