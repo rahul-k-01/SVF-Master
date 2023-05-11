@@ -196,8 +196,7 @@ h1 {
       padding-right: 1em;
       padding-bottom:5em;
       color: black;
-      height: 12em;
-      font-weight: bold;
+      height: 13em;
    }
     
    .item {
@@ -213,7 +212,6 @@ h1 {
       padding-top: 1em;
       padding-left: 1em;
       height: 16em;
-      font-weight: bold;
       
     }
     .img {
