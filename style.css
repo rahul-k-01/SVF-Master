@@ -11,7 +11,7 @@ body {
 }
 .card {
   background-color: #ffffff89;
-  margin-top: 10%;
+  margin-top: 90%;
 }
 .card-header {
   font-size: 2em;
@@ -27,3 +27,21 @@ footer {
   background-color: DarkSalmon;
   color: white;
 }
+
+
+
+
+/* media query  */
+
+@media(max-width:850px){
+  h1 {
+    font-family: "Gloock", serif;
+    font-size: 1.5em;
+  }
+  .logo {
+    float: left;
+    height: 2em;
+  }
+  
+}
+
