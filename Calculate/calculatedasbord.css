@@ -79,3 +79,16 @@
   .btn {
     font-size: 1.5rem;
    }
+
+   .dropdown-toggle{
+    margin: 0 0.8rem !important;
+    font-size: 1.9rem !important;
+    color: var(--min-color) !important;
+    padding: 0.4rem !important;
+  }
+  .dropdown-menu{
+    background: rgba(10, 10, 9, 0.6);
+  }
+  .dropdown-menu li a:hover{
+    background:none;
+  }
