@@ -146,6 +146,7 @@ h1 {
   .dropdown-menu li a:hover{
     background:none;
   }
+  
 
 
 
@@ -318,5 +319,10 @@ h1 {
     }
     .dropdown-menu li a:hover{
       background:none;
+    }
+
+    .row{
+      padding-bottom: 2em;
+      flex-direction: column; 
     }
   }

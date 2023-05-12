@@ -45,7 +45,7 @@ header{
   z-index: 1001;
 }
 header .logo{
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   color: var(--min-color);
   padding: 0.4rem;
 }
@@ -99,6 +99,7 @@ h1 {
   padding-left: 1em;
   text-align: left;
   height: 35em;
+  
 }
 
 .row{
